@@ -4,8 +4,8 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Set base url to deploy to Github Pages (see https://vite.dev/guide/static-deploy.html#github-pages)
-  // base: "/new-app/",
+  // Change base url to deploy to Github Pages (see https://vite.dev/guide/static-deploy.html#github-pages)
+  base: "/my-lovely-react-ts-vite-template/",
   plugins: [react()],
   resolve: {
     alias: {
