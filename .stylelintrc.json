@@ -1,1 +1,22 @@
-{ "extends": ["stylelint-config-standard"] }
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "alpha-value-notation": "number",
+    "selector-class-pattern": null,
+    "selector-not-notation": null,
+    "no-empty-source": null,
+    "custom-property-empty-line-before": null,
+    "media-feature-range-notation": null,
+    "declaration-empty-line-before": null,
+    "declaration-block-no-redundant-longhand-properties": [
+      true,
+      {
+        "ignoreShorthands": ["/flex/"]
+      }
+    ],
+    "value-keyword-case": [
+      "lower",
+      { "ignoreKeywords": ["optimizeLegibility"] }
+    ]
+  }
+}
